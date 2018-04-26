@@ -1,84 +1,80 @@
-# Code of Conduct
+# Código de Conduta
 
-## 1. Purpose
+## 1. Propósito
 
-A primary goal of Forum is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
+O principal objetivo desse fórum é ser inclusivo para todo mundo, com a maior variedade e diversidade de conhecimentos possíveis. Nos comprometemos a manter um ambiente amigável, seguro e receptivo para todos os desenvolvedores, sejam iniciantes, profissionais e principalmente pessoas interessadas em entrar na área, independente do gênero/orientação sexual, habilidade, etnia, crença, ideologia ou status socioeconômico.
 
-This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
+Nós convidamos todos que participam do fórum para nos ajudar a criar experiências positivas para todo mundo.
 
-We invite all those who participate in Forum to help us create safe and positive experiences for everyone.
+## 2. Open Source 
 
-## 2. Open Source Citizenship
+Um objetivo adicional deste Código de Conduta é aumentar a participação em projetos de código aberto encorajando desenvolvedores a reconhecer e melhorar os relacionamentos entre nossas ações e seus efeitos dentro da nossa comunidade
 
-A supplemental goal of this Code of Conduct is to increase open source citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community.
+Comunidades se espelham nas sociedades atuais e por isso, ações positivas são essenciais para combater as varias formas de desigualdade e abuso de poder que existem na sociedade 
 
-Communities mirror the societies in which they exist and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society.
+Se você ver alguém que está fazendo um esforço extra para garantir a boa recepção na nossa comunidade, que está encorajando todos os participantes a contribuir e se unir cada vez mais, por favor nos avise.
 
-If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.
+## 3. Comportamentos esperados
 
-## 3. Expected Behavior
+Os seguintes comportamentos são desejados de todos os membros da comunidade:
+- Participar de uma maneira autêntica, assim você contribui para o bem estar e longevidade dessa comunidade
+- Exercitar a consideração e o respeito pelas nossas ações e comunicados
+- Tentar colaborar antes de conflitar
+- Abster-se de comportamentos e discursos humilhantes, discriminatórios e principalmente, de assédio 
+- Esteja atento ao seu ambiente e aos seus colegas participantes. Alertar os líderes da comunidade se você notar uma situação perigosa, alguém em risco ou violações deste Código de Conduta, mesmo que pareçam irrelevantes
+- Lembre-se de que eventos comunitários podem ser compartilhados com membros do público; por favor, seja respeitoso com todos os organizadores desses eventos
 
-The following behaviors are expected and requested of all community members:
+## 4. Comportamento inaceitável
 
-*   Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
-*   Exercise consideration and respect in your speech and actions.
-*   Attempt collaboration before conflict.
-*   Refrain from demeaning, discriminatory, or harassing behavior and speech.
-*   Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
-*   Remember that community event venues may be shared with members of the public; please be respectful to all patrons of these locations.
+Os seguintes comportamentos são considerados assédio e são inaceitáveis dentro da nossa comunidade:
+- Violência, ameaças de violência ou linguagem agressiva contra outra pessoa/grupo
+- Sexismo, racismo, homofobia, transfobia, preconceito ou qualquer outra ação discriminatória
+- Postar ou exibir conteúdo violento ou sexualmente explícito
+- Postar ou ameaçar a postar informações pessoais de outras pessoas
+- Insultos pessoais, principalmente aqueles relacionados ao gênero, orientação sexual, crença ou deficiência
+- Fotografias e/ou gravações inapropriadas
+- Intimidação deliberada, *stalking* ou perseguição
+- Encorajar ou idealizar quaisquers desses comportamentos
 
-## 4. Unacceptable Behavior
+## 5. Consequências de Comportamentos Inaceitáveis
 
-The following behaviors are considered harassment and are unacceptable within our community:
+Comportamentos e atitudes inaceitáveis de qualquer membro da comunidade, incluindo apoiadores, patrocinadores e qualquer um que faça parte da organização, não serão tolerados.
 
-*   Violence, threats of violence or violent language directed against another person.
-*   Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
-*   Posting or displaying sexually explicit or violent material.
-*   Posting or threatening to post other people’s personally identifying information ("doxing").
-*   Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
-*   Inappropriate photography or recording.
-*   Inappropriate physical contact. You should have someone’s consent before touching them.
-*   Unwelcome sexual attention. This includes, sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.
-*   Deliberate intimidation, stalking or following (online or in person).
-*   Advocating for, or encouraging, any of the above behavior.
-*   Sustained disruption of community events, including talks and presentations.
+É esperado que qualquer um, que tenha um comportamento inaceitável, pare imediatamente.
 
-## 5. Consequences of Unacceptable Behavior
+Se um membro da comunidade se envolve em alguma situação inaceitável, os organizadores da comunidade podem tomar ações que definam apropriadas, isso inclui o banimento temporário ou permanente da comunidade sem aviso prévio - isso inclui não somente o fórum em si, mas também de todos os outros projetos, eventos(e sem reembolso em caso de ser algo pago) e encontros, como também qualquer coisa relacionada a comunidade
 
-Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.
+## 6. Viu algo de errado? Nos avise imediatamente.
 
-Anyone asked to stop unacceptable behavior is expected to comply immediately.
+Se você foi vítima de qualquer comportamento inaceitável ou se sentiu incomodado/perturbado com alguma coisa, por favor avise um organizador da comunidade o quanto antes possível.
 
-If a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event).
+Esses são nossos meios de contato:
+Email: [backendbr@gmail.com](backendbr@gmail.com)
+Twitter: [@BackEndBrasil](https://twitter.com/BackEndBrasil)
 
-## 6. Reporting Guidelines
+Adicionalmente, os organizadores da comunidade estão disponíveis para ajudar os membros a se envolverem com a aplicação da lei local ou para ajudar aqueles que se sentirem ameaçados a estarem seguros. No contexto de eventos presenciais, os organizadores também estarão disponíveis para ajudar no que for possível.
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible. backendbr@gmail.com.
+## 7. Enviando queixas
 
-
-
-Additionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
-
-## 7. Addressing Grievances
-
-If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify Backend Br with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies.
+Se você achar que foi acusado de forma falsa ou injusta de violar este Código de Conduta, deverá notificar o Backend Br com uma descrição concisa de sua queixa. Sua queixa será tratada de acordo com nossa política de governo existente.
 
 
+## 8. Escopo
 
-## 8. Scope
+Nós esperamos que todos os participantes da comunidade(contribuidores, apoiadores, patrocinadores e outros convidados) cumpram esse Código de Conduta em qualquer lugar que envolva o BackEndBrasil
 
-We expect all community participants (contributors, paid or otherwise; sponsors; and other guests) to abide by this Code of Conduct in all community venues–online and in-person–as well as in all one-on-one communications pertaining to community business.
+Este código de conduta e seus procedimentos relacionados também se aplicam ao comportamento inaceitável que ocorre fora do escopo das atividades comunitárias quando esse comportamento tem o potencial de afetar adversamente a segurança e o bem-estar dos membros da comunidade.
 
-This code of conduct and its related procedures also applies to unacceptable behavior occurring outside the scope of community activities when such behavior has the potential to adversely affect the safety and well-being of community members.
+## 9. Informação para Contato
 
-## 9. Contact info
+Esses são nossos meios de contato:
+Email: [backendbr@gmail.com](backendbr@gmail.com)
+Twitter: [@BackEndBrasil](https://twitter.com/BackEndBrasil)
 
-backendbr@gmail.com
+## 10. Licensa e atribuição
 
-## 10. License and attribution
+Esse Código de Conduta é distribuido sobre a licensa [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/)
 
-This Code of Conduct is distributed under a [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/).
+Trechos desse texto são derivados do [Código de Conduta Django](https://www.djangoproject.com/conduct/) e do [Política de Anti-Assédio Feminista Geek](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy).
 
-Portions of text derived from the [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy).
-
-Retrieved on November 22, 2016 from [http://citizencodeofconduct.org/](http://citizencodeofconduct.org/)
+Recuperado em 22 de Novembro de 2016 do [http://citizencodeofconduct.org/](http://citizencodeofconduct.org/) 
