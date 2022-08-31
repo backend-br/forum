@@ -2,20 +2,21 @@
 
 # Fórum
 
-:beer: :coffee: Dúvidas, sugestões ou questões em gerais sobre BackEnd
+Dúvidas, sugestões e questões em gerais sobre BackEnd.
 
-# Código de Conduta
+## Código de conduta
 
-Leia nosso [codigo de conduta](CODE_OF_CONDUCT) para entender o propósito do repositório, regras e punições.
+Leia nosso [código de conduta](/CODE_OF_CONDUCT) para entender o propósito do repositório, regras e punições.
 
-# Licença
+## Licença
 
-[MIT](LICENSE) &copy; BackEndBR
+Licenciado sob [MIT](/LICENSE).
 
-# Repositórios do Back-End Brasil
+## Principais repositórios do Back-End Brasil
 
-- [Vagas](https://github.com/backend-br/vagas)
-- [Eventos](https://github.com/backend-br/eventos)
-- [Colabore](https://github.com/backend-br/desafios)
-- [Poste mais!](https://github.com/backend-br/poste-mais)
-- [Desafios](https://github.com/backend-br/desafios)
+- [vagas](https://github.com/backend-br/vagas)
+- [eventos](https://github.com/backend-br/eventos)
+- [desafios](https://github.com/backend-br/desafios)
+- [poste-mais](https://github.com/backend-br/poste-mais)
+- [opensource-br](https://github.com/backend-br/opensource-br)
+- [como-instalar-xyz](https://github.com/backend-br/como-instalar-xyz)
