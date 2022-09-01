@@ -11,12 +11,3 @@ Leia nosso [código de conduta](/CODE_OF_CONDUCT) para entender o propósito do 
 ## Licença
 
 Licenciado sob [MIT](/LICENSE).
-
-## Principais repositórios do Back-End Brasil
-
-- [vagas](https://github.com/backend-br/vagas)
-- [eventos](https://github.com/backend-br/eventos)
-- [desafios](https://github.com/backend-br/desafios)
-- [poste-mais](https://github.com/backend-br/poste-mais)
-- [opensource-br](https://github.com/backend-br/opensource-br)
-- [como-instalar-xyz](https://github.com/backend-br/como-instalar-xyz)
