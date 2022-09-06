@@ -2,7 +2,7 @@
 
 # Fórum
 
-Dúvidas, sugestões e questões em gerais sobre BackEnd.
+Dúvidas, sugestões e questões em gerais sobre backend.
 
 ## Código de conduta
 
