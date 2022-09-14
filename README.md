@@ -6,8 +6,8 @@ Dúvidas, sugestões e questões em gerais sobre backend.
 
 ## Código de conduta
 
-Leia nosso [código de conduta](/CODE_OF_CONDUCT) para entender o propósito do repositório, regras e punições.
+Leia nosso [código de conduta](CODE_OF_CONDUCT.md) para entender o propósito do repositório, regras e punições.
 
 ## Licença
 
-Licenciado sob [MIT](/LICENSE).
+Licenciado sob [MIT](LICENSE).
