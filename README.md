@@ -8,6 +8,14 @@ Dúvidas, sugestões e questões em gerais sobre backend.
 
 Leia nosso [código de conduta](CODE_OF_CONDUCT.md) para entender o propósito do repositório, regras e punições.
 
+<div id='license'></div>
+
 ## Licença
 
 Licenciado sob [MIT](LICENSE).
+
+<div id='contributing'></div>
+
+## Contribuindo
+
+Siga as [diretrizes de contribuição](CONTRIBUTING.md) para contribuir com o projeto.
