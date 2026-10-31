@@ -1,0 +1,51 @@
+name: Weekly digest
+
+on:
+  schedule:
+    - cron: '0 12 * * 1'
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: 'Only show the digest in the run summary, without posting it.'
+        required: false
+        type: boolean
+        default: true
+
+concurrency:
+  group: weekly-digest
+
+permissions: {}
+
+jobs:
+  digest:
+    name: Weekly digest
+    permissions:
+      contents: read
+      discussions: write
+    runs-on: ubuntu-26.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          sparse-checkout: .github/digest
+          persist-credentials: false
+
+      - name: Checkout shared taxonomy
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          repository: backend-br/.github
+          ref: main
+          path: .shared
+          sparse-checkout: taxonomy.json
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+
+      - name: Post the digest of the week
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3
+        env:
+          TAXONOMY_FILE: ${{ github.workspace }}/.shared/taxonomy.json
+        with:
+          script: |
+            const { run } = await import(`${process.env.GITHUB_WORKSPACE}/.github/digest/weekly-digest.mjs`)
+            await run({ github })
