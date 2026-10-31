@@ -1,0 +1,21 @@
+name: Enable schedules
+
+on:
+  discussion:
+    types: [ 'created' ]
+  discussion_comment:
+    types: [ 'created' ]
+  issues:
+    types: [ 'opened' ]
+
+concurrency:
+  group: enable-schedules
+
+permissions: {}
+
+jobs:
+  enable-schedules:
+    name: Enable schedules
+    permissions:
+      actions: write
+    uses: backend-br/.github/.github/workflows/enable-schedules.yml@ed405a15c3be6affe082f783f6e5b8fa0b6a3fb1
