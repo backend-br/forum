@@ -11,8 +11,8 @@ vagas verificadas do [backend-br/vagas](https://github.com/backend-br/vagas), os
 do [backend-br/me-contrata](https://github.com/backend-br/me-contrata), as soluções aceitas nos
 [desafios](https://github.com/backend-br/desafios) e as contribuições aceitas no
 [opensource-br](https://github.com/backend-br/opensource-br). O resumo é montado sem IA, e uma semana sem novidades não
-gera discussion. Cada resumo termina com `Válida até` no dia do próximo, então o site deixa de mostrá-lo quando o
-seguinte chega.
+gera discussion. Cada resumo termina com `Válida até` no dia do próximo, e o resumo novo fecha os anteriores como desatualizados, então o
+site deixa de mostrá-los quando o seguinte chega.
 
 ## Destaques
 

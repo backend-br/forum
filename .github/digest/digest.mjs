@@ -20,8 +20,20 @@ export function validUntil({ end }) {
   return `Válida até: ${day(new Date(end.getTime() + MILLISECONDS_PER_WEEK), true)}`
 }
 
+const TITLE_PREFIX = 'Resumo da semana: '
+
+export function outdatedDigests(discussions, title) {
+  return discussions.filter(
+    (discussion) =>
+      discussion.title.startsWith(TITLE_PREFIX) &&
+      discussion.title !== title &&
+      !discussion.closed &&
+      discussion.author?.login === 'github-actions',
+  )
+}
+
 export function digestTitle({ start, end }) {
-  return `Resumo da semana: ${day(start, false)} a ${day(end, true)}`
+  return `${TITLE_PREFIX}${day(start, false)} a ${day(end, true)}`
 }
 
 export function plainText(text) {

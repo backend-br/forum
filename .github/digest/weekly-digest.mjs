@@ -1,5 +1,5 @@
 import { appendFileSync, readFileSync } from 'node:fs'
-import { digestBody, digestTitle, mergedCount, newJobs, newProfiles, periodEnding } from './digest.mjs'
+import { digestBody, digestTitle, mergedCount, newJobs, newProfiles, outdatedDigests, periodEnding } from './digest.mjs'
 import { githubGraphql, listIssues, recentPulls, useOctokit } from './github.mjs'
 
 const CATEGORY_SLUG = 'geral'
@@ -15,8 +15,22 @@ const REPOSITORY = `
       }
       discussions(first: 20, orderBy: { field: CREATED_AT, direction: DESC }) {
         nodes {
+          id
           title
+          closed
+          author {
+            login
+          }
         }
+      }
+    }
+  }
+`
+const CLOSE_DISCUSSION = `
+  mutation ($discussionId: ID!) {
+    closeDiscussion(input: { discussionId: $discussionId, reason: OUTDATED }) {
+      discussion {
+        url
       }
     }
   }
@@ -82,6 +96,10 @@ async function main() {
     body,
   })
   console.log(`Posted ${createDiscussion.discussion.url}.`)
+  for (const outdated of outdatedDigests(repository.discussions.nodes, title)) {
+    const { closeDiscussion } = await githubGraphql(CLOSE_DISCUSSION, { discussionId: outdated.id })
+    console.log(`Closed ${closeDiscussion.discussion.url} as outdated.`)
+  }
 }
 
 export function run({ github }) {

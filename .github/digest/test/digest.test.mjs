@@ -6,6 +6,7 @@ import {
   mergedCount,
   newJobs,
   newProfiles,
+  outdatedDigests,
   periodEnding,
   plainText,
   validUntil,
@@ -86,4 +87,22 @@ test('the digest ends with the day it stops being shown on the site', () => {
   const body = digestBody({ period, jobs: [], profiles: [], solutions: 1, projects: 0 })
 
   assert.match(body, /\n\nVálida até: 09\/11\/2026$/)
+})
+
+test('a new digest closes the earlier open digests the workflow posted, and nothing else', () => {
+  const bot = { login: 'github-actions' }
+  const discussions = [
+    { id: 'new', title: 'Resumo da semana: 08/11 a 15/11/2026', closed: false, author: bot },
+    { id: 'last', title: 'Resumo da semana: 02/11 a 09/11/2026', closed: false, author: bot },
+    { id: 'closed', title: 'Resumo da semana: 26/10 a 02/11/2026', closed: true, author: bot },
+    { id: 'person', title: 'Resumo da semana: minha opinião', closed: false, author: { login: 'maria' } },
+    { id: 'other', title: 'Dicas de livros', closed: false, author: bot },
+  ]
+
+  const closing = outdatedDigests(discussions, 'Resumo da semana: 08/11 a 15/11/2026')
+
+  assert.deepEqual(
+    closing.map((discussion) => discussion.id),
+    ['last'],
+  )
 })
