@@ -1,6 +1,15 @@
 import assert from 'node:assert/strict'
 import { test } from 'node:test'
-import { digestBody, digestTitle, mergedCount, newJobs, newProfiles, periodEnding, plainText } from '../digest.mjs'
+import {
+  digestBody,
+  digestTitle,
+  mergedCount,
+  newJobs,
+  newProfiles,
+  periodEnding,
+  plainText,
+  validUntil,
+} from '../digest.mjs'
 import { taxonomy } from './taxonomy.fixture.mjs'
 
 const period = periodEnding(new Date('2026-11-02T12:00:00Z'))
@@ -64,4 +73,17 @@ test('the digest lists the sections that have news and caps long lists', () => {
   assert.match(body, /- E mais 2 em \[backend-br\.github\.io\/vagas\/\]/)
   assert.match(body, /2 soluções novas foram aceitas/)
   assert.doesNotMatch(body, /Perfis novos|Projetos open source/)
+})
+
+test('the digest is valid until the day the next one is posted, in Brazil', () => {
+  const sunday = periodEnding(new Date('2026-11-16T00:00:00Z'))
+
+  assert.equal(digestTitle(sunday), 'Resumo da semana: 08/11 a 15/11/2026')
+  assert.equal(validUntil(sunday), 'Válida até: 22/11/2026')
+})
+
+test('the digest ends with the day it stops being shown on the site', () => {
+  const body = digestBody({ period, jobs: [], profiles: [], solutions: 1, projects: 0 })
+
+  assert.match(body, /\n\nVálida até: 09\/11\/2026$/)
 })

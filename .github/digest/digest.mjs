@@ -16,6 +16,10 @@ function day(date, withYear) {
   }).format(date)
 }
 
+export function validUntil({ end }) {
+  return `Válida até: ${day(new Date(end.getTime() + MILLISECONDS_PER_WEEK), true)}`
+}
+
 export function digestTitle({ start, end }) {
   return `Resumo da semana: ${day(start, false)} a ${day(end, true)}`
 }
@@ -109,5 +113,6 @@ export function digestBody({ period, jobs, profiles, solutions, projects }) {
     `Resumo automático do que entrou na comunidade de ${day(period.start, true)} a ${day(period.end, true)}.`,
     ...sections,
     `Acompanhe as vagas por [RSS](${SITE}/vagas.xml) ou em [JSON](${SITE}/vagas.json), e os perfis em [JSON](${SITE}/talentos.json).`,
+    validUntil(period),
   ].join('\n\n')
 }
